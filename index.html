@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>项目展示</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#f5f5f5;
+            font-family:"Microsoft YaHei",sans-serif;
+            color:#222;
+        }
+
+        .container{
+            width:100%;
+            max-width:600px;
+            margin:0 auto;
+            min-height:100vh;
+            background:white;
+        }
+
+        .video-box{
+            width:100%;
+            background:black;
+        }
+
+        video{
+            width:100%;
+            display:block;
+        }
+
+        .content{
+            padding:24px;
+        }
+
+        .title{
+            font-size:28px;
+            font-weight:bold;
+            margin-bottom:18px;
+        }
+
+        .text{
+            font-size:16px;
+            line-height:1.9;
+            color:#555;
+        }
+
+        .footer{
+            text-align:center;
+            padding:30px 20px;
+            color:#999;
+            font-size:13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 视频 -->
+        <div class="video-box">
+            <video controls autoplay muted playsinline>
+                <source src="video.mp4" type="video/mp4">
+                您的浏览器不支持 video 标签
+            </video>
+        </div>
+
+        <!-- 文本介绍 -->
+        <div class="content">
+
+            <div class="title">
+                项目介绍
+            </div>
+
+            <div class="text">
+                这里填写你的项目介绍内容。
+
+                <br><br>
+
+                例如：
+                本项目为一个基于网页设计的展示页面，通过二维码扫码即可快速访问，
+                支持视频在线播放、图文介绍、移动端自适应等功能，
+                可用于项目展示、课程推优、活动宣传等场景。
+
+                <br><br>
+
+                页面采用简洁风格设计，
+                支持微信、支付宝、浏览器直接扫码访问。
+            </div>
+
+        </div>
+
+        <div class="footer">
+            © 2026 Project Demo
+        </div>
+
+    </div>
+
+</body>
+</html>
